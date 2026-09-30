@@ -1,6 +1,6 @@
-# Roblox Clips Publisher - public website
+# Content Studio - public website
 
-Static public website (home page, Terms of Service, Privacy Policy) for the **Roblox Clips Publisher**
+Static public website (home page, Terms of Service, Privacy Policy) for the **Content Studio**
 TikTok developer app. Plain HTML + CSS only: no frameworks, no JavaScript, no analytics, no cookies,
 no external fonts or other external resources.
 
@@ -40,7 +40,7 @@ Stop the server with `Ctrl+C`.
 
 Nothing has been deployed. These steps are manual.
 
-1. Create a **public** GitHub repository, for example `roblox-clips-publisher`.
+1. Create a **public** GitHub repository, for example `roblox-clips-publisher-site`.
 2. Put the *contents* of this folder at the root of the repository (`index.html`, `styles.css`,
    `terms/`, `privacy/`). Commit and push to the `main` branch.
 3. In the repository, open **Settings > Pages**.
@@ -86,8 +86,8 @@ any other secret. Everything in this folder becomes public once published.
 
 ## Keeping the policies accurate
 
-The Privacy Policy describes the app's planned behavior: TikTok OAuth sign-in, basic account info (open_id,
+The Privacy Policy describes the app's planned behavior: platform OAuth sign-in (TikTok, YouTube), basic account info (open_id,
 avatar, display name), tokens stored locally, the `video.upload` permission, uploads only when the user starts
-them, no cloud user database, no analytics or ad tracking. If the app's behavior changes, for example by
+them, a local upload history, no cloud user database or video storage, no analytics or ad tracking. If the app's behavior changes, for example by
 adding a server, cloud storage, analytics, or new TikTok permissions, update the policy and its
 "Last updated" date **before** shipping that change.

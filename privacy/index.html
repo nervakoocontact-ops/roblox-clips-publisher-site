@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy - Roblox Clips Publisher</title>
-  <meta name="description" content="Privacy Policy for Roblox Clips Publisher: what TikTok data the desktop app uses, where it is stored, and what is never collected.">
+  <title>Privacy Policy - Content Studio</title>
+  <meta name="description" content="Privacy Policy for Content Studio: what platform data the desktop app uses, where it is stored, and what is never collected.">
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 16 16" fill="#fff"><path d="M4 2.5v11l9-5.5z"/></svg>
         </span>
-        Roblox Clips Publisher
+        Content Studio
       </a>
       <nav class="nav" aria-label="Main">
         <a href="../">Home</a>
@@ -29,12 +29,13 @@
       <h1>Privacy Policy</h1>
       <p class="meta">Effective date: September 30, 2026 &middot; Last updated: September 30, 2026</p>
 
-      <p>This Privacy Policy explains how Roblox Clips Publisher (the "App"), a desktop application for uploading short-form gameplay videos to TikTok as drafts, handles your information. It also covers this website. The App is an independent project and is not affiliated with TikTok or Roblox.</p>
+      <p>This Privacy Policy explains how Content Studio (the "App"), a desktop application for creating, reviewing and uploading short-form and long-form video content across channels, handles your information. It also covers this website. The App is an independent project and is not affiliated with TikTok, YouTube, Google, or any other platform.</p>
 
       <div class="card">
         <ul class="facts">
-          <li><strong>Stored on your computer.</strong> Sign-in tokens and basic account details are intended to be stored locally on your own computer. No cloud user database is currently used.</li>
-          <li><strong>You choose every upload.</strong> A video is sent to TikTok only when you select it and start the upload.</li>
+          <li><strong>Stored on your computer.</strong> OAuth credentials, sign-in tokens and basic account details are intended to remain on your own computer. No cloud user database is currently used.</li>
+          <li><strong>No cloud video storage.</strong> Content Studio does not operate its own cloud video-storage service.</li>
+          <li><strong>You choose every upload.</strong> A video is sent to a platform only when you select it and start the upload.</li>
           <li><strong>Never sold.</strong> Your information is not sold and is not shared with advertisers.</li>
           <li><strong>No tracking.</strong> No analytics, no advertising tracking, and no cookies on this website.</li>
         </ul>
@@ -45,7 +46,7 @@
         <ol>
           <li><a href="#collect">Information we collect</a></li>
           <li><a href="#use">How we use information</a></li>
-          <li><a href="#tiktok">TikTok integration</a></li>
+          <li><a href="#platforms">Platform integrations</a></li>
           <li><a href="#local">Local storage</a></li>
           <li><a href="#sharing">Sharing of information</a></li>
           <li><a href="#retention">Data retention</a></li>
@@ -58,67 +59,70 @@
       </nav>
 
       <h2 id="collect">1. Information we collect</h2>
-      <p>When you connect the App to TikTok, the App may receive:</p>
+      <p>When you connect the App to a platform account (for example TikTok or YouTube), the App may receive:</p>
       <ul>
-        <li><strong>Basic TikTok account information</strong>, such as your open_id (an app-specific identifier), avatar, and display name.</li>
-        <li><strong>OAuth access and refresh tokens</strong> issued by TikTok, which let the App act for you within the permissions you approved.</li>
+        <li><strong>Basic account information</strong> made available by that platform, such as an app-specific account identifier (for TikTok, the open_id), avatar, display name, or channel name.</li>
+        <li><strong>OAuth access and refresh tokens</strong> issued by the platform, which let the App act for you within the permissions you approved.</li>
+        <li><strong>Upload results</strong> returned by the platform, such as an upload or publish identifier and processing status.</li>
       </ul>
-      <p>The App also works with the <strong>video files you choose</strong> on your computer. A video is sent to TikTok only when you select it and start an upload.</p>
-      <p>We do not collect your TikTok password. You enter it only on TikTok's own login screen. The App does not use analytics or advertising trackers, and this website sets no cookies.</p>
+      <p>The App also works with the <strong>video files you choose</strong> on your computer. A video is sent to a platform only when you select it and start an upload. To avoid accidental duplicate uploads, the App may keep a local upload history containing file names, file sizes, content fingerprints (hashes), timestamps, and the identifiers and statuses returned by the platform.</p>
+      <p>We do not collect your platform passwords. You enter them only on each platform's own login screen. The App does not use analytics or advertising trackers, and this website sets no cookies.</p>
 
       <h2 id="use">2. How we use information</h2>
       <ul>
-        <li>To sign you in with TikTok.</li>
-        <li>To identify which TikTok account is connected (for example, by its display name and avatar).</li>
-        <li>To upload the videos you select to your TikTok account as drafts.</li>
+        <li>To sign you in to the platform accounts you choose to connect.</li>
+        <li>To identify which account is connected.</li>
+        <li>To upload the videos you select to those accounts, and to report upload and processing status back to you.</li>
+        <li>To help you avoid uploading the same file twice.</li>
       </ul>
       <p>We do not use your information for advertising, profiling, or any purpose unrelated to these features.</p>
 
-      <h2 id="tiktok">3. TikTok integration</h2>
-      <p>The App uses TikTok's official OAuth authorization for sign-in. On TikTok's consent screen you can see the permissions the App requests before you approve them. The App uses:</p>
+      <h2 id="platforms">3. Platform integrations</h2>
+      <p>The App uses each platform's official OAuth authorization for sign-in. On the platform's consent screen you can see the permissions the App requests before you approve them.</p>
+      <p><strong>TikTok.</strong> The App uses:</p>
       <ul>
         <li><strong>Basic user information</strong>, to identify the connected account (open_id, avatar, display name).</li>
-        <li><strong>The <code>video.upload</code> permission</strong>, to send the videos you select to your TikTok account as drafts.</li>
+        <li><strong>The <code>video.upload</code> permission</strong>, to send the videos you select to your TikTok account as drafts. Drafts appear in your TikTok account, where you review, edit, and choose whether to publish them. The App does not publish content to TikTok publicly for you.</li>
       </ul>
-      <p>Videos are transmitted to TikTok only when you start an upload. Uploaded drafts appear in your TikTok account, where you review, edit, and choose whether to publish them. The App does not publish content publicly for you.</p>
-      <p>Once information reaches TikTok, TikTok processes it under its own <a href="https://www.tiktok.com/legal/terms-of-service" rel="noopener">Terms of Service</a> and <a href="https://www.tiktok.com/legal/privacy-policy" rel="noopener">Privacy Policy</a>. We do not control how TikTok handles your data.</p>
+      <p><strong>YouTube.</strong> The App uses the permissions needed to upload the videos you select to a YouTube channel you authorize, with the details and visibility settings you choose.</p>
+      <p>Selected media is sent directly from your computer to the platform you requested. Once information reaches a platform, that platform processes it under its own terms and privacy policy, for example TikTok's <a href="https://www.tiktok.com/legal/terms-of-service" rel="noopener">Terms of Service</a> and <a href="https://www.tiktok.com/legal/privacy-policy" rel="noopener">Privacy Policy</a>, or YouTube's <a href="https://www.youtube.com/t/terms" rel="noopener">Terms of Service</a> and the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>. We do not control how platforms handle your data.</p>
 
       <h2 id="local">4. Local storage</h2>
-      <p>OAuth access and refresh tokens, and the basic account information described above, are intended to be stored locally on the computer where you use the App. They may be removed by deleting the App's local application data, or through a sign-out/revoke function in a future version of the App. Roblox Clips Publisher does not currently use a cloud user database or its own servers to store your account information, tokens, or videos.</p>
-      <p>Roblox Clips Publisher does not upload your videos to its own cloud servers. When you start an upload, the video you selected is sent directly to TikTok. Your local source files may remain on your own computer.</p>
+      <p>OAuth credentials, access and refresh tokens, basic account information, and the local upload history described above are intended to be stored locally on the computer where you use the App. They may be removed by deleting the App's local application data, or through a sign-out/revoke function in a future version of the App. Content Studio does not currently use a cloud user database or its own servers to store your account information, tokens, or videos.</p>
+      <p>Content Studio does not operate its own cloud video-storage service. When you start an upload, the video you selected is sent directly to the platform you chose. Your local source media remains on your computer unless you remove it.</p>
 
       <h2 id="sharing">5. Sharing of information</h2>
       <ul>
         <li>We do <strong>not</strong> sell your information.</li>
         <li>We do <strong>not</strong> share personal information with advertisers.</li>
-        <li>The videos you choose, and the tokens needed to authorize uploads, are sent to <strong>TikTok</strong>, because that is how the upload feature works.</li>
+        <li>The videos you choose, and the tokens needed to authorize uploads, are sent to the <strong>platform you selected</strong> (for example TikTok or YouTube), because that is how the upload feature works.</li>
         <li>We may disclose information if required by law, but the App does not hold user data on our own servers.</li>
       </ul>
 
       <h2 id="retention">6. Data retention</h2>
       <ul>
-        <li><strong>Tokens and basic account information</strong> are intended to be stored on your computer until you delete the App's local application data, or the tokens expire or are revoked.</li>
-        <li><strong>Video files:</strong> Roblox Clips Publisher does not upload your videos to its own cloud servers. The video you select is sent directly to TikTok when you start an upload, and your local source files may remain on your own computer.</li>
-        <li><strong>Uploaded drafts and published videos</strong> are kept by TikTok under TikTok's policies. You can delete them in TikTok.</li>
+        <li><strong>Tokens, basic account information and local upload history</strong> are intended to be stored on your computer until you delete the App's local application data, or, for tokens, until they expire or are revoked.</li>
+        <li><strong>Video files:</strong> Content Studio does not upload your videos to its own cloud servers. The video you select is sent directly to the platform when you start an upload, and your local source media remains on your computer unless you remove it.</li>
+        <li><strong>Uploaded drafts and published videos</strong> are kept by each platform under that platform's policies. You can delete them on the platform.</li>
       </ul>
 
       <h2 id="security">7. Security</h2>
-      <p>Sign-in and uploads are intended to take place directly between your computer and TikTok's services, which use encrypted (HTTPS) connections. Because tokens are intended to be stored locally, the security of your computer and your operating-system user account matters. Use a password or other device protection, and do not share your computer account with people you don't trust. No method of storage or transmission is completely secure, but we aim to handle your information carefully.</p>
+      <p>Sign-in and uploads are intended to take place directly between your computer and each platform's services, which use encrypted (HTTPS) connections. Because credentials and tokens are intended to be stored locally, the security of your computer and your operating-system user account matters. Use a password or other device protection, and do not share your computer account with people you don't trust. No method of storage or transmission is completely secure, but we aim to handle your information carefully.</p>
 
       <h2 id="choices">8. User choices</h2>
       <ul>
         <li><strong>Choose what to upload:</strong> nothing is uploaded unless you select a video and start the upload.</li>
-        <li><strong>Review before publishing:</strong> every upload arrives as a draft that you control in TikTok.</li>
+        <li><strong>Review before publishing:</strong> every TikTok upload arrives as a draft that you control in TikTok.</li>
         <li><strong>Remove stored tokens:</strong> you can remove locally stored tokens by deleting the App's local application data. A sign-out/revoke function may be provided in a future version.</li>
-        <li><strong>Revoke access:</strong> you can remove the App's access at any time in your TikTok account settings.</li>
-        <li><strong>Delete local data:</strong> deleting the App's local application data removes the stored tokens and account details from your computer.</li>
+        <li><strong>Revoke access:</strong> you can remove the App's access at any time in your TikTok account settings or your Google account permissions.</li>
+        <li><strong>Delete local data:</strong> deleting the App's local application data removes the stored tokens, account details and upload history from your computer.</li>
       </ul>
 
       <h2 id="children">9. Children's privacy</h2>
-      <p>The App is not directed at children under 13, or under the minimum age required to use TikTok in your country. We do not knowingly collect information from children. If you believe a child has used the App, please contact us. Deleting the App's local application data removes the locally stored tokens and account details from that computer.</p>
+      <p>The App is not directed at children under 13, or under the minimum age required to use the connected platforms in your country. We do not knowingly collect information from children. If you believe a child has used the App, please contact us. Deleting the App's local application data removes the locally stored tokens and account details from that computer.</p>
 
       <h2 id="changes">10. Changes to this policy</h2>
-      <p>If the App's data practices change, for example if a cloud service is ever added, we will update this policy before the change takes effect and change the "Last updated" date at the top of this page. Significant changes will be pointed out on the home page of this website.</p>
+      <p>If the App's data practices change, for example if a cloud service or a new platform integration is added, we will update this policy before the change takes effect and change the "Last updated" date at the top of this page. Significant changes will be pointed out on the home page of this website.</p>
 
       <h2 id="contact">11. Contact</h2>
       <p>Questions or requests about privacy: <span class="email">nervakoo.contact@gmail.com</span></p>
@@ -127,13 +131,13 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <span>&copy; 2026 Roblox Clips Publisher</span>
+      <span>&copy; 2026 Content Studio</span>
       <nav aria-label="Legal">
         <a href="../">Home</a>
         <a href="../terms/">Terms of Service</a>
         <a href="./">Privacy Policy</a>
       </nav>
-      <p class="disclaimer">Not affiliated with TikTok or Roblox.</p>
+      <p class="disclaimer">Independent project. Not affiliated with TikTok, YouTube, or any other platform.</p>
     </div>
   </footer>
 </body>
